@@ -1,0 +1,47 @@
+:root {
+    --accent-color: #FFD76E;
+    --text-color: #FFFFFF;
+    --background-color: #050404;
+    --secondarytext-color: #000000;  
+}
+
+.hero{
+    background: rgba(155, 155, 155, 0.27);
+box-shadow: -1px 1px 8px -3px rgba(0, 0, 0, 0.25) inset;
+backdrop-filter: blur(4.5px);
+}
+
+
+.hero-title{
+    color: var(--text-color);
+}
+
+.hero-subtitle{
+    color: var(--text-color);
+}
+
+.hero-text{
+    color: var(--text-color);
+}
+
+.hero-button{
+    background-color: var(--accent-color);
+    color: var(--secondarytext-color);
+}
+
+.about{
+    background-color: var(--background-color);
+}
+.about-title{
+    color: var(--accent-color);
+}
+.about-text{
+    color: var(--text-color);
+}
+
+.about-name{
+    color: var(--text-color);
+}
+.about-textt{
+    color: var(--accent-color);
+}
